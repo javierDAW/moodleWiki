@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="conf.xsd">
+    <user id="0">
+        <pagination>
+            <documents>5</documents>
+            <comments>5</comments>
+        </pagination>
+    </user>
+</config>

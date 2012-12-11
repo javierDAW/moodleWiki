@@ -1,0 +1,189 @@
+/* 
+    Document   : style
+    Created on : 18-oct-2012, 12:14:25
+    Author     : mgalbis
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+html,body{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: url(../img/cuadriculaT.png) top repeat;
+}
+
+
+/* ------ Control ------ */
+
+#control {
+    width: 920px;
+    position: relative;
+}
+
+.navbar-form {
+    margin-top: 1px;
+}
+
+ .dropdown .icon-white {
+    opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+.dropdown:hover .icon-white,
+.open.dropdown .icon-white {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+
+/* ------ General ------ */
+
+#general {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+#cabecera {
+    height: 100px;
+}
+
+#cuerpo {
+    text-align: center;
+    background: #fff /*url(../img/main-bg.jpg)*/;
+    -webkit-box-shadow: 0 0 40px 20px #fff;	
+    box-shadow: 0 0 40px 20px #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    width: 900px;
+    
+}
+
+.documento a:hover, #menu a:hover{	
+     border-bottom: 1px solid #005580; 
+     text-decoration: none; 
+}
+
+.documento {
+    width: 600px;
+    margin: 40px 5px 10px 10px;
+    text-align: left;
+}
+
+.post {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.entry{
+    text-align: justify;
+}
+
+.info {
+    margin-top: 5px;
+    margin-right: 0;
+    padding-right: 20px;
+}
+
+.info p{
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    padding-bottom: 5px;
+    padding-top: 0;
+    margin-top : 0;
+    margin-bottom: 5px;
+}
+
+.info p:last-child{
+    border: none;
+}
+
+span.error{
+    margin-left: 30px;
+    margin-top: 30px;
+    color: #aaa;
+}
+
+#menu {
+    background: url(../img/blog-aside-bg.jpg) left repeat-y;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    text-align: left;
+    min-height: 400px;
+}
+
+.accordion-group, .accordion-inner {
+    border: 0;
+}
+
+.accordion {
+    margin-left: 20px;
+}
+
+.accordion-inner {
+    padding-left: 20px !important;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.left{
+    text-align: left;
+}
+
+.right, td.right{
+    text-align: right;
+}
+
+td.center, th.center {
+    text-align: center;
+}
+
+td:first-child{
+    width: 40px;
+}
+
+td:last-child{
+    width: 145px;
+}
+
+td {
+    width: 200px;
+}
+
+#error{
+    position: absolute;
+    z-index: 5;
+    top: 50px;
+    right: 50px;
+}
+
+.error{
+    color: red;
+    font-style: italic;
+}
+
+#formulario{
+    text-align: left;
+}
+
+#formulario p {
+    padding: 10px;
+}
+
+.reloj{margin-top: 10px;}
+
+#reloj{
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+.titulo {
+    padding-bottom: 10px;
+}
